@@ -52,7 +52,7 @@ End the program.
 
 
 ## PROGRAM
-
+~~~
 ### Developed by : Vishwa Rathinam.S,
 ### Reg.No : 212221240063,
 ### DEVELOPING A NEURAL NETWORK CLASSIFICATION MODEL...
@@ -270,7 +270,7 @@ x_single_prediction = np.argmax(ai_brain.predict(X_test_scaled[1:2,:]), axis=1)
 print(x_single_prediction)
 
 print(le.inverse_transform(x_single_prediction))
-
+~~~
 
 ## Dataset Information
 ![img](out1.png)
